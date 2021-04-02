@@ -19,35 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3929a09-30f7-4a0d-bfde-dc42971ff230" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/1-bdc-interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/layouts/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/layouts/default.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/middleware/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/nuxt.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/plugins/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/store/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="e3929a09-30f7-4a0d-bfde-dc42971ff230" name="Default Changelist" comment="Interface base">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +59,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617295486247</updated>
-      <workItem from="1617295487397" duration="1108000" />
+      <workItem from="1617295487397" duration="3108000" />
     </task>
+    <task id="LOCAL-00001" summary="Interface base">
+      <created>1617296650017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617296650017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -104,5 +87,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Interface base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface base" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617296652429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1617296652429" />
   </component>
 </project>
