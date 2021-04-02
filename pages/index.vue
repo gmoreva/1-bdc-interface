@@ -1,9 +1,10 @@
 <template>
   <div class="container">
     <div>
-      <Logo/>
       <button @click="getInfo('/get-increment')">Get From public service</button>
-      <button @click="getInfo('/get-increment-from-service')">Get From backend service</button>
+     <br> <button @click="getInfo('/get-increment-from-service')">Get From backend service</button>
+      <br> <button @click="getInfo('/set-increment')">Set increment on public</button>
+      <br><button @click="getInfo('/set-increment-on-service')">Set increment on backend service</button>
       {{ result }}
     </div>
   </div>

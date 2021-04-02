@@ -1,5 +1,6 @@
 const serviceUrl = process.env.SERVICE_URL || 'http://localhost:3001'
 
+console.log({ serviceUrl })
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,

@@ -1,8 +1,11 @@
 FROM node:alpine
 
-WORKDIR /apep
+WORKDIR /app
 COPY ./package.json /app
 COPY ./package-lock.json /app
 RUN npm i
 COPY ./ /app
-CMD node index.js
+ARG SERVICE_URL
+ENV SERVICE_URL=${SERVICE_URL}
+RUN SERVICE_URL=${SERVICE_URL} npm run generate
+CMD npm start
